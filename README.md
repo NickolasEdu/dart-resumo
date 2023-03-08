@@ -1,5 +1,14 @@
-# Dart
+# Index
+- [Introdução](#dart)
+- [Operadores](#operadores)
+- [Tipos de Dados](#tipos-de-dados)
+- [Métodos](#métodos)
+- [Variáveis](#variáveis)
+- [Conjuntos](#conjuntos)
+- [Condicionais](#condicionais)
+- [Laços de Repetição](#loops)
 
+# Dart
 Dart é uma linguagem de programação desenvolvida pela Google, lançada em 2011. É uma linguagem orientada a objetos e projetada para ser rápida, escalável e fácil de aprender. Ela é usada para desenvolver aplicativos para a web, dispositivos móveis, desktop e até mesmo para o desenvolvimento de servidores.
 
 Dart é frequentemente usado em conjunto com o Flutter, um framework de desenvolvimento de aplicativos móveis que usa Dart como linguagem de programação. Isso se deve em parte à excelente integração do Dart com o Flutter, tornando-o uma escolha popular para desenvolvedores que desejam criar aplicativos móveis modernos e eficientes.
@@ -20,6 +29,8 @@ De comparação
 | != | Diferente |
 | && | E lógico (AND) |
 | || | OU lógico (OR) |
+
+[Voltar ao índice](#index)
 
 ## Tipos de dados
 
@@ -57,6 +68,8 @@ idade = "22 anos";
 print(idade);
 ```
 
+[Voltar ao índice](#index)
+
 ## Métodos
 
 Métodos de transformação com tipo numérico.
@@ -81,6 +94,8 @@ Métodos de transformação com tipo numérico.
 | toStringAsPrecision(int digitos) | Converte para String contendo N dígitos. |
 | truncate() | Retira as casas decimais, retornando um inteiro. |
 | truncateToDouble() | Retira as casas decimais, retornando um double. |
+
+[Voltar ao índice](#index)
 
 ## Variáveis
 
@@ -136,6 +151,8 @@ var2 = "Valor de const";
 
 print(var2); // Error: The const variable 'var2' must be initialized.
 ```
+
+[Voltar ao índice](#index)
 
 ## Conjuntos
 
@@ -205,6 +222,8 @@ print(idades['Pedro']); // 20
 
 *Dart também possui outras coleções como filas, pilhas e árvores*
 
+[Voltar ao índice](#index)
+
 ## Condicionais
 
 As condicionais são utilizadas para permitir que o código execute diferentes caminhos de acordo com uma condição específica. Existem duas estruturas principais de condicionais em Dart: **`if-else`**
@@ -261,6 +280,8 @@ switch(language){
 }
 ```
 
+[Voltar ao índice](#index)
+
 ## Loops
 
 Em Dart, existem três estruturas principais de repetição: **`while`**, **`do-while`**
@@ -297,5 +318,7 @@ do{
 } while(k < 10);
 
 ```
+
+[Voltar ao índice](#index)
 
 ## Funções
